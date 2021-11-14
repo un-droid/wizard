@@ -1,0 +1,7 @@
+<div id="input-container" [hidden]="!visible">
+    <label for="input" id="inputLabel">{{step.question}}</label><br>
+</div>
+<div id="button-container" [hidden]="!visible">
+    <span>Click <b>Next</b></span>
+    <button id="next" (click)="nextStep()">Next ></button>
+</div>

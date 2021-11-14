@@ -1,0 +1,31 @@
+:host{
+    #input-container{
+        label{
+            font-size: 30px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        select,
+        input{
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 8px;
+            width: 400px;
+        }
+    }
+    #button-container{
+        span{
+            margin-right: 20px;
+        }
+        #next{
+            width: 100px;
+            padding: 10px 5px;
+            font-weight: bold;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    }
+}

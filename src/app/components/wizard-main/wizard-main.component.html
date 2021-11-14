@@ -1,0 +1,10 @@
+<div id="wizard-container">
+    <div id="wizard-steps-navigation">
+        <app-wizard-section [section]="section" *ngFor="let section of wizard.sections"></app-wizard-section>
+    </div>
+    <div id="selected-step">
+        <div id="sections-repeater" *ngFor="let section of wizard.sections">
+            <app-wizard-section-step-item [step]="step" *ngFor="let step of section.steps" #inputChild></app-wizard-section-step-item>
+        </div>
+    </div>
+</div>

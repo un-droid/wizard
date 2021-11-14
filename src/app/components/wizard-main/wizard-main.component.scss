@@ -1,0 +1,18 @@
+#wizard-container{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+    padding: 30px;
+
+    display: flex;
+
+    #wizard-steps-navigation{
+        flex: 1;
+    }
+
+    #selected-step{
+        flex: 1;
+    }
+}

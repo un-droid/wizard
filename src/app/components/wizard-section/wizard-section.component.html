@@ -1,0 +1,7 @@
+<div class="wizard-section-steps-container">
+    <div id="section-name-container">
+        <div id="section-indicator" (click)="sectionSelected()"></div>
+        <span>{{section.name}}</span>
+    </div>
+    <app-wizard-section-step [step]="step" *ngFor="let step of section.steps"></app-wizard-section-step>
+</div>
